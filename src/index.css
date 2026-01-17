@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base{
+    p{
+        @apply text-base text-blue-950 
+    }
+    span{
+        @apply text-blue-500
+    }
+    h1{
+        @apply text-6xl text-blue-950 font-bold leading-20
+    }
+    h2{
+        @apply text-5xl text-slate-900 font-bold
+    }
+    h3{
+        @apply text-2xl text-slate-900 font-bold
+    }
+    h4{
+        @apply text-white text-[40px] font-semibold
+    }
+    h5{
+        @apply text-white font-semibold text-2xl
+    }
+}
